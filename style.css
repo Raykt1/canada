@@ -1,0 +1,142 @@
+body
+{
+width:80%;
+margin:0 auto;
+background:#000;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    background: url('comp.jpg') no-repeat center center/cover;
+    height: 1000px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.6;
+}
+
+
+.imgd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#result{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(245, 103, 200);
+    font-size: 50px;
+    margin: 10px;
+}
+
+h1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: wheat;
+    font-size: 50px;
+    margin: 10px;
+
+}
+
+h2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(179, 233, 245);
+    font-size: 30px;
+
+}
+
+#container
+{
+margin:10px 0;
+
+}
+
+
+@media screen and (max-width:1000px)
+{
+
+    body
+    {
+    width:100%;    
+    }
+    
+   
+
+}
+
+@media screen and (max-width:800px)
+{
+
+    .caixa1
+    {
+     width:50%;   
+    }
+
+    .caixa2
+    {
+     width:100%;   
+    }
+
+}
+
+
+@media screen and (max-width:500px)
+{
+
+    .caixa1
+    {
+     width:100%;   
+    }
+
+    .caixa2
+    {
+     width:100%;   
+    }
+
+    .caixaDt
+    {
+    margin:5px 0;
+    }
+
+    #tagExibeResultado
+    {
+     font-size:15px;   
+
+    }
+
+
+}
+
+@media screen and (max-width:1258px)
+{
+
+    body::before {
+        content: "";
+        position: absolute;
+        background: url('phone.jpg') no-repeat center center/cover;
+        height: 1000px;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: -2;
+        opacity: 0.6;
+    }
+    
+
+
+}
